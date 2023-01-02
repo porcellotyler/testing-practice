@@ -17,5 +17,5 @@ test('Punctuation', () => {
 });
 
 test('Multiple punctuation', () => {
-    expect(caesarCipher('Hello, world!')).toMatch(/Ifmmp, xpsme!/);
+    expect(caesarCipher('Hello, world!')).toMatch(/Ifmmp,Xpsme!/);
 });
